@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
 }
-.mapboxgl-map {
+.map {
     position: absolute;
     top: 50px;
     left: 0;
