@@ -36,7 +36,7 @@ class App extends Component {
         type: 'circle',
         source: {
           type: 'geojson',
-          data: `http://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Recreation/FeatureServer/6/query/?f=geojson&geometry=${xmin},${ymin},${xmax},${ymax}&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&outFields=*`,
+          data: `https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Recreation/FeatureServer/6/query/?f=geojson&geometry=${xmin},${ymin},${xmax},${ymax}&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&outFields=*`,
         },
         paint: {
           'circle-radius': 8,
